@@ -6,9 +6,7 @@ Embark on a data-driven journey into the world of e-commerce with this project, 
 
 ## Datasets 📂
 
-- [Demographic Table](link-to-demographic-table)
-- [Transaction Table](link-to-transaction-table)
-- [Products Table](link-to-products-table)
+- [Datasets](https://drive.google.com/drive/folders/1xU91jKUknFRtBlC9vrKUSfhSC9_kvb30)
 
 ## Project Expectations 🚀
 
@@ -148,8 +146,11 @@ SELECT CASE WHEN visit_count = 1 THEN '1' WHEN visit_count BETWEEN 2 AND 5 THEN 
 __Insights :__
 
 •	Implement targeted marketing campaigns based on customer segments to enhance engagement and sales.
+
 •	Improve user experience on the website or app to increase customer satisfaction and retention.
+
 •	Invest in data-driven decision-making by regularly analysing and acting upon insights obtained from data.
+
 1. Order Value 0-10 Dollars:
    
 Recommendation: Encourage upselling or offering bundled deals to increase the average order value. Promotions for products in slightly higher price ranges might boost overall sales.
