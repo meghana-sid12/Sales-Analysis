@@ -1,17 +1,22 @@
-# Sales-Analysis
+# E-commerce Data Analysis with SQL in BigQuery 🛒📊
 
-E-commerce SQL Analysis <br>
+## Project Overview 🌐
 
-Problem Statement: <br>
+Embark on a data-driven journey into the world of e-commerce with this project, employing SQL in BigQuery to unravel insights from sales, product, and customer data. The goal is to uncover actionable patterns, calculate key performance indicators (KPIs), and guide strategic decision-making for optimal growth.
 
-Analysing the sales, product and customer data for an e-commerce company. Getting various insights and calculating various KPI and data with SQL in Big Query. <br>
+## Datasets 📂
 
-Expectations: <br>
+- [Demographic Table](link-to-demographic-table)
+- [Transaction Table](link-to-transaction-table)
+- [Products Table](link-to-products-table)
 
-This project aims to leverage the power of e-commerce data (sales, product, and demographic) analysed through SQL to unlock actionable insights driving profitable growth. By delving into customer behaviour, product trends, and sales patterns, we will uncover hidden value that can inform key business decisions. You need to find these patterns and calculate various metrics and KPIs that suit the data and the goal. <br>
+## Project Expectations 🚀
+
+Dive deep into e-commerce data to decipher customer behavior, product trends, and sales patterns. Uncover hidden value through the calculation of various KPIs and metrics, facilitating informed decision-making.
+
 1.	Find the number of orders that have small, medium or large order value (small:0-10 dollars, medium:10-20 dollars, large:20+)
 
-SELECT
+'''sql SELECT
     CASE
         WHEN sales_value BETWEEN 0 AND 10 THEN 'Small'
         WHEN sales_value BETWEEN 10 AND 20 THEN 'Medium'
@@ -20,7 +25,7 @@ SELECT
     COUNT(*) AS order_count
 FROM myproj2-408807.trans.trans
 GROUP BY order_category
-ORDER BY order_category;
+ORDER BY order_category;'''
  
  
 ……………………………………………………………………………………….…………………………………………………………………….
