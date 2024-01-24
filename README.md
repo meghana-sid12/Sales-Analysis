@@ -16,7 +16,8 @@ Dive deep into e-commerce data to decipher customer behavior, product trends, an
 
 1.	Find the number of orders that have small, medium or large order value (small:0-10 dollars, medium:10-20 dollars, large:20+)
 
-```sql SELECT
+```sql
+SELECT
     CASE
         WHEN sales_value BETWEEN 0 AND 10 THEN 'Small'
         WHEN sales_value BETWEEN 10 AND 20 THEN 'Medium'
@@ -25,7 +26,8 @@ Dive deep into e-commerce data to decipher customer behavior, product trends, an
     COUNT(*) AS order_count
 FROM myproj2-408807.trans.trans
 GROUP BY order_category
-ORDER BY order_category;```
+ORDER BY order_category;
+```
  
  
 ……………………………………………………………………………………….…………………………………………………………………….
